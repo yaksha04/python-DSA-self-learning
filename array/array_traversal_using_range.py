@@ -1,3 +1,17 @@
 arr=[1,4,2,5,6,7,8,9,3,0]
 for i in range(len(arr)):
     print(arr[i])
+arr.append(12)
+print(arr)    
+arr.insert(1, 99)
+print(arr)
+arr.remove(5)   
+print(arr)
+arr.pop()
+print(arr)
+arr.sort()
+print(arr)
+arr.reverse()
+print(arr)
+arr.clear()
+print(arr)
