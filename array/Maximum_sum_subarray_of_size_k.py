@@ -6,4 +6,4 @@ def max_sum_k(arr, k):
         window_sum += arr[i] - arr[i-k]
         max_sum = max(max_sum, window_sum)
 
-    return max_sum
+    return max_sum n
